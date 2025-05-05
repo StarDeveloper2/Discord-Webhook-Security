@@ -1,0 +1,15 @@
+{
+  "name": "star-webhook-security",
+  "version": "1.0.0",
+  "description": "A Discord bot to monitor and manage webhooks by discord.gg/std",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
