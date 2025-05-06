@@ -35,7 +35,7 @@ async function sendWebhookReport(interaction = null) {
 
     let reportLines = [];
 
-    for (const [guildId, guild] of client.guilds.cache) {
+    const guild = interaction?.guild ?? logsChannel.guild; {
         for (const [channelId, channel] of guild.channels.cache) {
             if (!channel.isTextBased()) continue;
             try {
